@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, red , rgb(0, 163, 168));
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    color: white;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 150px;
+    color: white;
+}
